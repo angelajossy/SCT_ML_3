@@ -1,10 +1,10 @@
-🧠 Project Overview
+Project Overview
 This project focuses on high-accuracy image classification for the classic Kaggle "Dogs vs. Cats" challenge. 🐾 The goal is to build a model that can accurately distinguish between images of dogs and cats. It uses a powerful hybrid approach, combining a pre-trained deep learning model for feature extraction with a classic machine learning model for classification.
 
-🔍 Objective
+Objective
 To apply transfer learning by using a pre-trained VGG16 model to extract complex features from the images. These features are then used to train a Support Vector Machine (SVM) classifier, aiming for a high validation accuracy and a successful submission to the Kaggle competition.
 
-### 🧮 Steps Involved
+Steps Involved
 
 * **Data Preparation**
     Imported the Kaggle "Dogs vs. Cats" dataset.
@@ -30,9 +30,9 @@ To apply transfer learning by using a pre-trained VGG16 model to extract complex
     Repeated the feature extraction and scaling process for all 12,500 test images.
     Used the trained SVM to predict the probability of "dog" for each test image and saved the results in the `submission.csv` format.
 
----
 
-### 🛠️ Tools & Libraries Used
+
+Tools & Libraries Used
 
 * **Python**
 * **TensorFlow / Keras** – For loading the VGG16 model and deep feature extraction.
@@ -42,9 +42,9 @@ To apply transfer learning by using a pre-trained VGG16 model to extract complex
 * **zipfile** – For unzipping the source dataset.
 * **tqdm** – For progress bars during feature extraction.
 
----
 
-### 📈 Key Takeaways
+
+Key Takeaways
 
 * Applied **transfer learning** to solve a complex computer vision problem without training a deep learning model from scratch.
 * Demonstrated a powerful hybrid approach by combining a pre-trained CNN (VGG16) for feature extraction with a classic ML model (SVM) for classification.
