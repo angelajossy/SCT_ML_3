@@ -1,5 +1,5 @@
 Project Overview
-This project focuses on high-accuracy image classification for the classic Kaggle "Dogs vs. Cats" challenge. 🐾 The goal is to build a model that can accurately distinguish between images of dogs and cats. It uses a powerful hybrid approach, combining a pre-trained deep learning model for feature extraction with a classic machine learning model for classification.
+This project focuses on high-accuracy image classification for the classic Kaggle "Dogs vs. Cats" challenge.The goal is to build a model that can accurately distinguish between images of dogs and cats. It uses a powerful hybrid approach, combining a pre-trained deep learning model for feature extraction with a classic machine learning model for classification.
 
 Objective
 To apply transfer learning by using a pre-trained VGG16 model to extract complex features from the images. These features are then used to train a Support Vector Machine (SVM) classifier, aiming for a high validation accuracy and a successful submission to the Kaggle competition.
