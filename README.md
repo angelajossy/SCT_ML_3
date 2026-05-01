@@ -8,7 +8,7 @@ Steps Involved
 
 * **Data Preparation**
     Imported the Kaggle "Dogs vs. Cats" dataset.
-    Used the `zipfile` library to unzip the `train.zip` and `test1.zip` folders, making the raw `.jpg` images accessible.
+    Used the `zipfile' library to unzip the `train.zip` and `test1.zip` folders, making the raw `.jpg` images accessible.
 
 * **Feature Extraction (Transfer Learning)**
     Loaded the pre-trained **VGG16** model from Keras/TensorFlow, without its final classification layer (`include_top=False`).
